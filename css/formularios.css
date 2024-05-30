@@ -1,0 +1,52 @@
+.container{
+    padding: 15% 10%;
+}
+
+#a-register{
+    color: #9f3647;
+    &:hover{
+        color: white;
+    }
+}
+
+button{
+    margin: 2% 0%;
+    a{
+        color: white;
+        text-decoration: none;
+        &:hover{
+            color: black;
+        }
+    }
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #fff;
+    transition: all 0.3s ease;
+
+    &:focus {
+        border-color: #9f3647;
+        box-shadow: 0 0 5px #9f3647;
+    }
+}
+
+select.form-select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #fff;
+    transition: all 0.3s ease;
+    &:focus {
+        border-color: #9f3647;
+        box-shadow: 0 0 5px #9f3647;
+    }
+}
+
+.form-check-input {
+    background-color: #9f3647;
+}
